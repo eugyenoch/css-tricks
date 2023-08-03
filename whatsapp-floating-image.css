@@ -1,0 +1,26 @@
+/*
+Use the style sheet to position a whatsapp icon(.png) at the bottom right of any website
+Must add the image on the page like with the following HTML tag:
+<!-- WHATSAPP FLOATING IMAGE -->
+<a href="https://wa.me/+0000000000?text=I%20am%20interested%20in%20one%20of%20your%20services" class="float">
+<img class="my-float" src="whatsapp-icon.png" title="Chat via WhatsApp" alt="Chat via WhatsApp" width="60px" height="60px">
+</a>
+<!-- WHATSAPP FLOATING IMAGE -->
+*/
+.float{
+	position:fixed;
+	width: 60px;
+  height: 60px;
+  bottom: 40px;
+	right: 40px;
+	background-color: #0C9;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+	z-index:9;
+}
+
+.my-float{
+	margin-top: 0px;
+}
